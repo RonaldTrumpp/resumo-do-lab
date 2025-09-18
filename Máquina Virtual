@@ -1,0 +1,56 @@
+🌐 Aula: Máquinas Virtuais no Azure e SLA
+1. O que é o Azure?
+
+Plataforma de computação em nuvem da Microsoft.
+
+Permite criar e gerenciar máquinas virtuais (VMs), bancos de dados, redes, aplicativos e muito mais.
+
+Você usa recursos de servidores da Microsoft sem precisar ter a máquina física.
+
+2. O que é uma Máquina Virtual (VM)?
+
+É um computador virtual que roda dentro da nuvem do Azure.
+
+Pode ter Windows ou Linux instalado.
+
+É usada para:
+
+Testar sistemas operacionais.
+
+Rodar aplicações isoladas.
+
+Treinar e aprender redes e banco de dados.
+
+Hospedar sistemas de produção de empresas.
+
+3. Benefícios da VM no Azure
+
+Escalabilidade: aumentar ou reduzir recursos (CPU, RAM, disco).
+
+Flexibilidade: escolher entre várias imagens prontas de sistemas.
+
+Alta disponibilidade: rodar em mais de uma região/data center.
+
+Segurança: isolamento dos dados e backup integrado.
+
+4. SLA (Service Level Agreement)
+
+Definição: contrato de nível de serviço, garante a disponibilidade mínima que a Microsoft assegura para os recursos do Azure.
+
+Exemplo:
+
+Uma VM no Azure pode ter SLA de 99,9% de disponibilidade.
+
+Isso significa que, em 1 mês, o serviço pode ficar fora do ar no máximo ~43 minutos.
+
+Quanto maior a redundância (ex.: usar duas ou mais VMs em zonas diferentes), maior será o SLA (pode chegar a 99,99% ou mais).
+
+Importante para empresas que não podem parar os sistemas.
+
+5. Conclusão
+
+A VM no Azure é como ter um computador remoto pronto para usar.
+
+O SLA é a garantia de disponibilidade, essencial para entender a confiabilidade do serviço.
+
+Escolher o SLA certo depende da necessidade do projeto: testes simples podem tolerar quedas, mas sistemas críticos exigem SLA maior.
